@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170318 11:10:38.233" generator="Robot 3.0.1 (Python 2.7.13 on win32)">
+<suite source="C:\Users\san\robotframework\tests\Project\Chrome\Popular Departments\populardepartment.robot" id="s1" name="Populardepartment">
+<test id="s1-t1" name="Popular Department1:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170318 11:10:38.525" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20170318 11:10:42.767" starttime="20170318 11:10:38.524"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170318 11:10:44.218" starttime="20170318 11:10:42.768"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20170318 11:10:44.219" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170318 11:10:47.245" starttime="20170318 11:10:44.218"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[1]/div/a</arg>
+</arguments>
+<msg timestamp="20170318 11:10:47.246" level="INFO">Clicking element '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[1]/div/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170318 11:10:49.430" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170318 11:10:49.430" starttime="20170318 11:10:47.327"></status>
+</kw>
+<msg timestamp="20170318 11:10:49.431" level="FAIL">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[1]/div/a' did not match any elements.</msg>
+<status status="FAIL" endtime="20170318 11:10:49.431" starttime="20170318 11:10:47.245"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170318 11:10:52.518" starttime="20170318 11:10:49.436"></status>
+</kw>
+<status status="FAIL" endtime="20170318 11:10:52.519" critical="yes" starttime="20170318 11:10:38.518">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[1]/div/a' did not match any elements.</status>
+</test>
+<test id="s1-t2" name="Popular Department2:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170318 11:10:52.525" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20170318 11:10:55.975" starttime="20170318 11:10:52.525"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170318 11:10:57.458" starttime="20170318 11:10:55.976"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20170318 11:10:57.459" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170318 11:11:00.442" starttime="20170318 11:10:57.459"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[2]/div/a</arg>
+</arguments>
+<msg timestamp="20170318 11:11:00.444" level="INFO">Clicking element '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[2]/div/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170318 11:11:02.313" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170318 11:11:02.313" starttime="20170318 11:11:00.541"></status>
+</kw>
+<msg timestamp="20170318 11:11:02.314" level="FAIL">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[2]/div/a' did not match any elements.</msg>
+<status status="FAIL" endtime="20170318 11:11:02.314" starttime="20170318 11:11:00.443"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170318 11:11:05.358" starttime="20170318 11:11:02.316"></status>
+</kw>
+<status status="FAIL" endtime="20170318 11:11:05.359" critical="yes" starttime="20170318 11:10:52.523">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[1]/div[2]/div/a' did not match any elements.</status>
+</test>
+<test id="s1-t3" name="Popular Department3:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170318 11:11:05.367" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20170318 11:11:09.137" starttime="20170318 11:11:05.367"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170318 11:11:10.648" starttime="20170318 11:11:09.137"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20170318 11:11:10.649" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170318 11:11:13.500" starttime="20170318 11:11:10.649"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[1]/div/a</arg>
+</arguments>
+<msg timestamp="20170318 11:11:13.502" level="INFO">Clicking element '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[1]/div/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170318 11:11:15.349" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170318 11:11:15.349" starttime="20170318 11:11:13.603"></status>
+</kw>
+<msg timestamp="20170318 11:11:15.351" level="FAIL">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[1]/div/a' did not match any elements.</msg>
+<status status="FAIL" endtime="20170318 11:11:15.351" starttime="20170318 11:11:13.501"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170318 11:11:18.454" starttime="20170318 11:11:15.369"></status>
+</kw>
+<status status="FAIL" endtime="20170318 11:11:18.455" critical="yes" starttime="20170318 11:11:05.365">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[1]/div/a' did not match any elements.</status>
+</test>
+<test id="s1-t4" name="Popular Department4:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170318 11:11:18.460" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20170318 11:11:22.634" starttime="20170318 11:11:18.460"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170318 11:11:24.088" starttime="20170318 11:11:22.635"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20170318 11:11:24.089" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170318 11:11:26.571" starttime="20170318 11:11:24.089"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[2]/div/a</arg>
+</arguments>
+<msg timestamp="20170318 11:11:26.573" level="INFO">Clicking element '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[2]/div/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170318 11:11:28.491" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170318 11:11:28.491" starttime="20170318 11:11:26.752"></status>
+</kw>
+<msg timestamp="20170318 11:11:28.492" level="FAIL">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[2]/div/a' did not match any elements.</msg>
+<status status="FAIL" endtime="20170318 11:11:28.492" starttime="20170318 11:11:26.572"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170318 11:11:31.539" starttime="20170318 11:11:28.495"></status>
+</kw>
+<status status="FAIL" endtime="20170318 11:11:31.540" critical="yes" starttime="20170318 11:11:18.458">ValueError: Element locator '//*[@id="popular-departments-ns_S6ZPH7SMQP2V0RJNCPPA_3478_"]/div[1]/div/div/div/div/div[2]/div[2]/div/a' did not match any elements.</status>
+</test>
+<status status="FAIL" endtime="20170318 11:11:31.547" starttime="20170318 11:10:38.237"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="4" pass="0">Critical Tests</stat>
+<stat fail="4" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="4" id="s1" name="Populardepartment" pass="0">Populardepartment</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

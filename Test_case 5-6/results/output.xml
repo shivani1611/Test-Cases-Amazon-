@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170317 10:46:58.618" generator="Robot 3.0.1 (Python 2.7.13 on win32)">
+<suite source="C:\Users\san\robotframework\tests\Project\Chrome\Cart\ptc.robot" id="s1" name="Ptc">
+<test id="s1-t1" name="Proceeding To CheckOut:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170317 10:46:58.802" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170317 10:47:04.972" starttime="20170317 10:46:58.802"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170317 10:47:06.472" starttime="20170317 10:47:04.973"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="nav-link-accountList"]</arg>
+</arguments>
+<msg timestamp="20170317 10:47:06.477" level="INFO">Simulating Mouse Over on element '//*[@id="nav-link-accountList"]'</msg>
+<status status="PASS" endtime="20170317 10:47:06.963" starttime="20170317 10:47:06.477"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="nav-flyout-ya-signin"]/a/span</arg>
+</arguments>
+<msg timestamp="20170317 10:47:06.965" level="INFO">Clicking element '//*[@id="nav-flyout-ya-signin"]/a/span'.</msg>
+<status status="PASS" endtime="20170317 10:47:07.847" starttime="20170317 10:47:06.964"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="ap_email"]</arg>
+<arg>azeez.therocker1@gmail.com</arg>
+</arguments>
+<msg timestamp="20170317 10:47:07.848" level="INFO">Typing text 'azeez.therocker1@gmail.com' into text field '//*[@id="ap_email"]'</msg>
+<status status="PASS" endtime="20170317 10:47:08.237" starttime="20170317 10:47:07.848"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="ap_password"]</arg>
+<arg>9550494818</arg>
+</arguments>
+<msg timestamp="20170317 10:47:08.240" level="INFO">Typing text '9550494818' into text field '//*[@id="ap_password"]'</msg>
+<status status="PASS" endtime="20170317 10:47:08.447" starttime="20170317 10:47:08.239"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="signInSubmit"]</arg>
+</arguments>
+<msg timestamp="20170317 10:47:08.448" level="INFO">Clicking element '//*[@id="signInSubmit"]'.</msg>
+<status status="PASS" endtime="20170317 10:47:12.825" starttime="20170317 10:47:08.448"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="nav-cart"]</arg>
+</arguments>
+<msg timestamp="20170317 10:47:12.826" level="INFO">Clicking element '//*[@id="nav-cart"]'.</msg>
+<status status="PASS" endtime="20170317 10:47:17.820" starttime="20170317 10:47:12.825"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="sc-buy-box-ptc-button"]/span/input</arg>
+</arguments>
+<msg timestamp="20170317 10:47:17.821" level="INFO">Clicking element '//*[@id="sc-buy-box-ptc-button"]/span/input'.</msg>
+<status status="PASS" endtime="20170317 10:47:18.930" starttime="20170317 10:47:17.820"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20170317 10:47:20.934" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20170317 10:47:20.934" starttime="20170317 10:47:18.933"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170317 10:47:23.995" starttime="20170317 10:47:20.936"></status>
+</kw>
+<status status="PASS" endtime="20170317 10:47:23.996" critical="yes" starttime="20170317 10:46:58.800"></status>
+</test>
+<status status="PASS" endtime="20170317 10:47:24.004" starttime="20170317 10:46:58.623"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Ptc" pass="1">Ptc</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

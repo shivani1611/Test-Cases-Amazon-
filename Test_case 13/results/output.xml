@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170317 18:53:26.961" generator="Robot 3.0.1 (Python 2.7.13 on win32)">
+<suite source="C:\Users\san\robotframework\tests\Project\Chrome\Deal of the day\alldeals.robot" id="s1" name="Alldeals">
+<test id="s1-t1" name="All Deals:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170317 18:53:27.249" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20170317 18:53:31.707" starttime="20170317 18:53:27.249"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170317 18:53:33.080" starttime="20170317 18:53:31.708"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20170317 18:53:33.082" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170317 18:53:36.229" starttime="20170317 18:53:33.081"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20170317 18:53:41.232" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20170317 18:53:41.232" starttime="20170317 18:53:36.230"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="dotd-info"]/div[2]/div/a</arg>
+</arguments>
+<msg timestamp="20170317 18:53:41.233" level="INFO">Clicking element '//*[@id="dotd-info"]/div[2]/div/a'.</msg>
+<status status="PASS" endtime="20170317 18:53:41.449" starttime="20170317 18:53:41.233"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Today's Deals</arg>
+</arguments>
+<msg timestamp="20170317 18:53:45.487" level="INFO">Current page contains text 'Today's Deals'.</msg>
+<status status="PASS" endtime="20170317 18:53:45.487" starttime="20170317 18:53:41.450"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170317 18:53:48.579" starttime="20170317 18:53:45.488"></status>
+</kw>
+<status status="PASS" endtime="20170317 18:53:48.580" critical="yes" starttime="20170317 18:53:27.246"></status>
+</test>
+<status status="PASS" endtime="20170317 18:53:48.584" starttime="20170317 18:53:26.968"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Alldeals" pass="1">Alldeals</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170316 15:08:11.531" generator="Robot 3.0.1 (Python 2.7.13 on win32)">
+<suite source="C:\Users\san\robotframework\tests\Project\Chrome\Mouse Over\mo.robot" id="s1" name="Mo">
+<test id="s1-t1" name="15 Departments:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170316 15:08:11.746" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com'</msg>
+<status status="PASS" endtime="20170316 15:08:17.313" starttime="20170316 15:08:11.746"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170316 15:08:18.797" starttime="20170316 15:08:17.315"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="nav-link-shopall"]/span[2]/span</arg>
+</arguments>
+<msg timestamp="20170316 15:08:18.800" level="INFO">Simulating Mouse Over on element '//*[@id="nav-link-shopall"]/span[2]/span'</msg>
+<status status="PASS" endtime="20170316 15:08:19.399" starttime="20170316 15:08:18.799"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20170316 15:08:21.400" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20170316 15:08:21.400" starttime="20170316 15:08:19.400"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="nav-flyout-shopAll"]/div[2]/span[7]/span</arg>
+</arguments>
+<msg timestamp="20170316 15:08:21.401" level="INFO">Clicking element '//*[@id="nav-flyout-shopAll"]/div[2]/span[7]/span'.</msg>
+<status status="PASS" endtime="20170316 15:08:21.573" starttime="20170316 15:08:21.401"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170316 15:08:24.619" starttime="20170316 15:08:21.574"></status>
+</kw>
+<status status="PASS" endtime="20170316 15:08:24.620" critical="yes" starttime="20170316 15:08:11.743"></status>
+</test>
+<test id="s1-t2" name="16 Try Prime:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170316 15:08:24.630" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com'</msg>
+<status status="PASS" endtime="20170316 15:08:30.146" starttime="20170316 15:08:24.629"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170316 15:08:31.591" starttime="20170316 15:08:30.147"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="nav-link-prime"]/span[2]/span</arg>
+</arguments>
+<msg timestamp="20170316 15:08:31.593" level="INFO">Simulating Mouse Over on element '//*[@id="nav-link-prime"]/span[2]/span'</msg>
+<status status="PASS" endtime="20170316 15:08:32.010" starttime="20170316 15:08:31.592"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20170316 15:08:34.011" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20170316 15:08:34.011" starttime="20170316 15:08:32.011"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains `text`.</doc>
+<arguments>
+<arg>Try Prime</arg>
+</arguments>
+<msg timestamp="20170316 15:08:34.112" level="INFO">Current page contains text 'Try Prime'.</msg>
+<status status="PASS" endtime="20170316 15:08:34.113" starttime="20170316 15:08:34.014"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170316 15:08:37.148" starttime="20170316 15:08:34.114"></status>
+</kw>
+<status status="PASS" endtime="20170316 15:08:37.150" critical="yes" starttime="20170316 15:08:24.627"></status>
+</test>
+<test id="s1-t3" name="17 Fresh:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170316 15:08:37.159" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com'</msg>
+<status status="PASS" endtime="20170316 15:08:43.271" starttime="20170316 15:08:37.159"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170316 15:08:44.730" starttime="20170316 15:08:43.272"></status>
+</kw>
+<kw name="Mouse Over" library="Selenium2Library">
+<doc>Simulates hovering mouse over the element specified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="nav-flyout-genzFresh"]/div[1]/div</arg>
+</arguments>
+<msg timestamp="20170316 15:08:44.733" level="INFO">Simulating Mouse Over on element '//*[@id="nav-flyout-genzFresh"]/div[1]/div'</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170316 15:08:45.716" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170316 15:08:45.717" starttime="20170316 15:08:45.326"></status>
+</kw>
+<msg timestamp="20170316 15:08:45.718" level="FAIL">ERROR: Element //*[@id="nav-flyout-genzFresh"]/div[1]/div not found.</msg>
+<status status="FAIL" endtime="20170316 15:08:45.718" starttime="20170316 15:08:44.732"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170316 15:08:48.777" starttime="20170316 15:08:45.719"></status>
+</kw>
+<status status="FAIL" endtime="20170316 15:08:48.778" critical="yes" starttime="20170316 15:08:37.156">ERROR: Element //*[@id="nav-flyout-genzFresh"]/div[1]/div not found.</status>
+</test>
+<status status="FAIL" endtime="20170316 15:08:48.786" starttime="20170316 15:08:11.535"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="2">Critical Tests</stat>
+<stat fail="1" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Mo" pass="2">Mo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

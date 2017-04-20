@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170319 08:04:49.130" generator="Robot 3.0.1 (Python 2.7.13 on win32)">
+<suite source="C:\Users\san\robotframework\tests\Project\Chrome\11 Women Dresses\womendress.robot" id="s1" name="Womendress">
+<test id="s1-t1" name="11.Women Dresses:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170319 08:04:50.270" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20170319 08:04:56.786" starttime="20170319 08:04:50.267"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170319 08:04:58.720" starttime="20170319 08:04:56.790"></status>
+</kw>
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+</arguments>
+<msg timestamp="20170319 08:04:58.724" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170319 08:05:08.909" starttime="20170319 08:04:58.722"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>8</arg>
+</arguments>
+<msg timestamp="20170319 08:05:16.924" level="INFO">Slept 8 seconds</msg>
+<status status="PASS" endtime="20170319 08:05:16.924" starttime="20170319 08:05:08.911"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>link="/s/?rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&amp;bbn=10445813011&amp;pf_rd_p=3f77a700-a7c5-4bff-b3cc-38aded3604aa&amp;pf_rd_r=HS29MZS0B0KXDRYB34D8"</arg>
+</arguments>
+<msg timestamp="20170319 08:05:16.928" level="INFO">Clicking element 'link="/s/?rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&amp;bbn=10445813011&amp;pf_rd_p=3f77a700-a7c5-4bff-b3cc-38aded3604aa&amp;pf_rd_r=HS29MZS0B0KXDRYB34D8"'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170319 08:05:21.062" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170319 08:05:21.063" starttime="20170319 08:05:18.760"></status>
+</kw>
+<msg timestamp="20170319 08:05:21.078" level="FAIL">ValueError: Element locator 'link="/s/?rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&amp;bbn=10445813011&amp;pf_rd_p=3f77a700-a7c5-4bff-b3cc-38aded3604aa&amp;pf_rd_r=HS29MZS0B0KXDRYB34D8"' did not match any elements.</msg>
+<status status="FAIL" endtime="20170319 08:05:21.079" starttime="20170319 08:05:16.927"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170319 08:05:24.416" starttime="20170319 08:05:21.161"></status>
+</kw>
+<status status="FAIL" endtime="20170319 08:05:24.417" critical="yes" starttime="20170319 08:04:50.262">ValueError: Element locator 'link="/s/?rh=n%3A7141123011%2Cn%3A10445813011%2Cn%3A7147440011%2Cn%3A1040660%2Cn%3A1045024&amp;bbn=10445813011&amp;pf_rd_p=3f77a700-a7c5-4bff-b3cc-38aded3604aa&amp;pf_rd_r=HS29MZS0B0KXDRYB34D8"' did not match any elements.</status>
+</test>
+<status status="FAIL" endtime="20170319 08:05:24.438" starttime="20170319 08:04:49.149"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Womendress" pass="0">Womendress</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

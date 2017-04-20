@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170316 14:52:40.134" generator="Robot 3.0.1 (Python 2.7.13 on win32)">
+<suite source="C:\Users\san\robotframework\tests\Project\Chrome\Footer\other.robot" id="s1" name="Other">
+<test id="s1-t1" name="18 Amazon Rewards Visa Signature Cards:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170316 14:52:40.353" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170316 14:52:46.096" starttime="20170316 14:52:40.353"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170316 14:52:47.626" starttime="20170316 14:52:46.097"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="navFooter"]/table/tbody/tr/td[5]/ul/li[1]/a</arg>
+</arguments>
+<msg timestamp="20170316 14:52:47.627" level="INFO">Clicking element '//*[@id="navFooter"]/table/tbody/tr/td[5]/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170316 14:52:49.193" starttime="20170316 14:52:47.627"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20170316 14:52:51.194" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20170316 14:52:51.194" starttime="20170316 14:52:49.193"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170316 14:52:54.254" starttime="20170316 14:52:51.196"></status>
+</kw>
+<status status="PASS" endtime="20170316 14:52:54.256" critical="yes" starttime="20170316 14:52:40.351"></status>
+</test>
+<test id="s1-t2" name="19 Amazon Currency Converter:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170316 14:52:54.266" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170316 14:52:59.953" starttime="20170316 14:52:54.265"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170316 14:53:01.446" starttime="20170316 14:52:59.954"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="navFooter"]/table/tbody/tr/td[5]/ul/li[7]/a</arg>
+</arguments>
+<msg timestamp="20170316 14:53:01.447" level="INFO">Clicking element '//*[@id="navFooter"]/table/tbody/tr/td[5]/ul/li[7]/a'.</msg>
+<status status="PASS" endtime="20170316 14:53:03.692" starttime="20170316 14:53:01.446"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20170316 14:53:05.693" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20170316 14:53:05.693" starttime="20170316 14:53:03.693"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170316 14:53:08.751" starttime="20170316 14:53:05.695"></status>
+</kw>
+<status status="PASS" endtime="20170316 14:53:08.753" critical="yes" starttime="20170316 14:52:54.263"></status>
+</test>
+<test id="s1-t3" name="20 Amazon Assistant:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170316 14:53:08.761" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170316 14:53:14.337" starttime="20170316 14:53:08.760"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170316 14:53:15.817" starttime="20170316 14:53:14.340"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="navFooter"]/table/tbody/tr/td[7]/ul/li[7]/a</arg>
+</arguments>
+<msg timestamp="20170316 14:53:15.820" level="INFO">Clicking element '//*[@id="navFooter"]/table/tbody/tr/td[7]/ul/li[7]/a'.</msg>
+<status status="PASS" endtime="20170316 14:53:18.707" starttime="20170316 14:53:15.819"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20170316 14:53:20.708" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20170316 14:53:20.708" starttime="20170316 14:53:18.707"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170316 14:53:23.776" starttime="20170316 14:53:20.710"></status>
+</kw>
+<status status="PASS" endtime="20170316 14:53:23.778" critical="yes" starttime="20170316 14:53:08.758"></status>
+</test>
+<test id="s1-t4" name="21 Help:">
+<kw type="setup" name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170316 14:53:23.787" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20170316 14:53:29.353" starttime="20170316 14:53:23.787"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170316 14:53:30.816" starttime="20170316 14:53:29.353"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>//*[@id="navFooter"]/table/tbody/tr/td[7]/ul/li[8]/a</arg>
+</arguments>
+<msg timestamp="20170316 14:53:30.818" level="INFO">Clicking element '//*[@id="navFooter"]/table/tbody/tr/td[7]/ul/li[8]/a'.</msg>
+<status status="PASS" endtime="20170316 14:53:32.447" starttime="20170316 14:53:30.817"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20170316 14:53:34.448" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20170316 14:53:34.448" starttime="20170316 14:53:32.447"></status>
+</kw>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170316 14:53:37.511" starttime="20170316 14:53:34.450"></status>
+</kw>
+<status status="PASS" endtime="20170316 14:53:37.513" critical="yes" starttime="20170316 14:53:23.785"></status>
+</test>
+<status status="PASS" endtime="20170316 14:53:37.519" starttime="20170316 14:52:40.138"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="4">Critical Tests</stat>
+<stat fail="0" pass="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Other" pass="4">Other</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
